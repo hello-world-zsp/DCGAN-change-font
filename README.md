@@ -8,7 +8,8 @@ This code works for Chinese fonts changing.
 
 - utils.py is copy from [https://github.com/carpedm20/DCGAN-tensorflow](https://github.com/carpedm20/DCGAN-tensorflow), which is used to read png files of given directory.
 - main.py is used to train the whole network. 
-
+- model_my.py is the file which you can adjust the DCGAN network in detail.
+#
 `python main.py --batch_size 20 --image_size 80 --epoch 20 --learning_rate 0.000001 --c_dim 1`
 
 - --batch_size, if you are in GPU mode, too large batch_size can cause your GPU out of memory.
