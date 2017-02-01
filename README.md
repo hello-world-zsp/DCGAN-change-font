@@ -1,7 +1,11 @@
-This code works for image denoising without tuning the parameters such as number of convolution layer, learning rate...
-The clean images should be .png files which save in ./data/real_images, and the noise images save in ./data/dataset/noise_images
+#
+This code works for Chinese fonts changing.
+#
+- The original font images should be .jpg files, the same for the objective font images. The are suggested to be saved in ./data.
+- If your data is saved as a whole '.npy', format-converting functions (eg. npy2jpg.py) are also provided in the folder 'data'.
 
-read_stl10.py reads the binary file of [stl10](https://cs.stanford.edu/~acoates/stl10/) and saves as png files, simultaneously, adds guass noise to each image and saves in ./data/dataset/noise_images
+#
+helper_functions.py include reading image functions.
 
 utils.py is copy from [https://github.com/carpedm20/DCGAN-tensorflow](https://github.com/carpedm20/DCGAN-tensorflow), which is used to read png files of given directory.
 
