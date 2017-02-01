@@ -1,6 +1,6 @@
 This code works for Chinese fonts changing.
 #
-- The original font images should be .jpg files or '.npy' as a whole, the same for the objective font images. The are suggested to be saved in ./data.
+- The original font images should be .jpg files or '.npy' as a whole, the same for the objective font images. They are suggested to be saved in ./data.
 - format-converting functions (eg. npy2jpg.py) are also provided in the folder 'data'.
 
 #
