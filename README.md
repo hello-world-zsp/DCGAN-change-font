@@ -20,3 +20,6 @@ This code works for Chinese fonts changing.
 - --learning_rate
 
 - --dataset, if your original data are images instead of npy, add this parameter. It is the folder name which you save your images, eg. ./data/dataset/original_images.
+
+# wgan and lsgan versions
+https://github.com/hello-world-zsp/wgan_tensorflow
